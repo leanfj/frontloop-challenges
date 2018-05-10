@@ -141,12 +141,18 @@ table {
 body {
   font-family: Roboto;
   font-size: 16px;
-  background-color: #7A9ACF
+  background-color: #7A9ACF;
+  display: flex;
+  flex-direction:   column;
+  align-items: center;
 }
 
 .container  {
-margin: 100px auto 100px auto;
-width: 80%;
+  width: 65%;
+  min-height: 40em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .banner {
