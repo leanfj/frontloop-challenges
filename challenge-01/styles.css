@@ -173,7 +173,14 @@ body {
 
 .produto {
   width: 255px;
+  align-self: stretch;
+  border-radius: 4px;
+  transition: all .1s;
+  padding: 8px;
+}
 
+.produto:hover {
+  background-color: #7a9acf26;
 }
 
 .produto::after {
