@@ -148,7 +148,7 @@ body {
 }
 
 .container  {
-  width: 65%;
+  width: 80%;
   min-height: 40em;
   display: flex;
   align-items: center;
