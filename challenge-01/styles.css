@@ -186,17 +186,21 @@ body {
 
 .produto::after {
   content: "";
-  display: none;
-  width: 70%;
+  display: block;
+  width: 90%;
   /* height: 1px; */
-  border-bottom: 1px solid #A7A7A7;
   margin: 20px auto;
 }
 
-@media screen and (max-width: 750px) {
+.produto:last-child::after {
+  border-bottom: 0;
+}
+@media screen and (max-width: 770px) {
+  
   .produto::after {
-    display: block;
+    border-bottom: 2px dashed #7A9ACF;
   }
+
 }
 
 .produto img {

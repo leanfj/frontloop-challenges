@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Bulma!</title>
+  <title>Responsinator</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <style>
@@ -13,13 +13,16 @@
       justify-content: center;
       align-items: center;
     }
+    footer {
+      text-align: center;
+    }
 
     #app {
       /* perspective */
       z-index: 1;
       width: 1280px;
       transform: /*perspective(1250px) rotateX(15deg) rotateY(-10deg)*/
-      scale(0.6);
+      scale(0.9);
 
       /* border vars */
       --border-color: deepskyblue;
@@ -100,9 +103,15 @@
 </head>
 
 <body>
-  <div class="center">
-    <iframe id="app" class="hero is-fullheight" src="../challenge-01/index.html"></iframe>
-  </div>
-  <div id="backdrop" class="is-overlay hero is-dark is-bold"></div>
+
+    <div class="center">
+      <iframe id="app" class="hero is-fullheight" src="../challenge-01/index.html"></iframe>
+    </div>
+    <div id="backdrop" class="is-overlay hero is-dark is-bold">
+    </div>
+    <footer>Tanks
+      <a href="https://twitter.com/username_ZAYDEK" target="_blank">Zaydek</a>
+    </footer>
+
 </body>
 </html
