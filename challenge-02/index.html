@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css" />
 </head>
+
 <body>
   <div class="container">
     <div class="wrapper">
@@ -19,13 +21,36 @@
         </div>
         <h1>payment method</h1>
         <ul class="payment">
-          <li><img src="./img/visa.svg" alt="">visa</li>
-          <li class="active-payment"><img src="./img/mastercard.svg" alt="">mastercard <span class="check"><img src="./img/check.svg" alt=""></span></li>
-          <li><img src="./img/maestro.svg" alt="">maestro</li>
+          <li>
+            <img src="./img/visa.svg" alt="">visa</li>
+          <li class="active-payment">
+            <img src="./img/mastercard.svg" alt="">mastercard
+            <span class="check">
+              <img src="./img/check.svg" alt="">
+            </span>
+          </li>
+          <li>
+            <img src="./img/maestro.svg" alt="">maestro</li>
         </ul>
-        <a href="#">next step <img src="./img/arrow.svg" alt="Arrow Svg"></a>
+        <a href="#" class="next">next step
+          <img src="./img/arrow.svg" alt="Arrow Svg">
+        </a>
       </div>
     </div>
   </div>
+  <script>
+    let btnNext = document.querySelector('.next');
+
+    btnNext.addEventListener('mousedown', function (e) {
+      btnNext.classList.add('keydown');
+
+    });
+    
+    btnNext.addEventListener('mouseup', function (e) {
+      btnNext.classList.remove('keydown');
+
+    });
+
+  </script>
 </body>
 </html>
