@@ -24,7 +24,6 @@ body {
   align-items: center;
   width: 460px;
   padding: 10px;
-  
 }
 
 .card {
@@ -34,18 +33,17 @@ body {
   width: 100%;
   overflow-y: hidden;
   box-shadow: 5px 5px 5px 5px #0000002b;
-  
 }
 .navigation-dots {
   text-align: center;
   margin-top: 20px;
 }
-.navigation-dots span{
+.navigation-dots span {
   display: inline-block;
   width: 7px;
   height: 7px;
   border-radius: 60px;
-  background-color: #DAD8DA;
+  background-color: #dad8da;
   margin-right: 7px;
 }
 
@@ -54,7 +52,7 @@ body {
 }
 
 .navigation-dots .active {
-  background-color: #9F9D9F;
+  background-color: #9f9d9f;
 }
 .card h1 {
   text-transform: uppercase;
@@ -65,7 +63,7 @@ body {
 
 .payment li {
   list-style: none;
-  border-top: 1px solid #DAD8DA;
+  border-top: 1px solid #dad8da;
   padding: 20px 20px 20px 40px;
   display: flex;
   flex-wrap: wrap;
@@ -90,13 +88,13 @@ body {
 
 .payment li span img {
   margin-right: 0;
-  height: 23px;  
+  height: 23px;
 }
 .check {
- margin-left: auto;
+  margin-left: auto;
 }
 .next {
-  background-color: #5180D8;
+  background-color: #5180d8;
   width: 100%;
   height: 49px;
   display: flex;
@@ -113,22 +111,22 @@ body {
   transition: background-color 0.2s;
   position: relative;
   top: 0;
-  
 }
 
 .keydown {
-  transition: top 0.05s;  
+  transition: top 0.05s;
   top: 2px;
-  
 }
 
 .next:hover {
- background-color:#4C82F2;
+  background-color: #4c82f2;
+}
+
+.next:active {
+  transform: translatey(1.5px);
 }
 
 .next img {
   height: 14px;
   margin-left: 5px;
 }
-
-
